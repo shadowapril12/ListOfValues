@@ -17,5 +17,7 @@ namespace LikeAList
         /// </summary>
         /// <param name="index">Индекс удаляемого элемента из коллекции</param>
         void RemoveAt(int index);
+
+        void Count();
     }
 }

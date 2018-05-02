@@ -18,8 +18,10 @@ namespace LikeAList
             //Удаление из коллекции первого элемента
             list.RemoveAt(0);
 
+            list.Count();
+
             //Вывод всех элементов в коллекции с помощью цикла foreach
-            foreach(int el in list)
+            foreach (int el in list)
             {
                 Console.WriteLine(el);
             }

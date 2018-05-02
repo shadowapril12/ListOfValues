@@ -128,5 +128,10 @@ namespace LikeAList
                 Console.WriteLine();
             }
         }
+
+        public void Count()
+        {
+            Console.WriteLine(arr.Length);
+        }
     }
 }
