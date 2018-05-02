@@ -16,6 +16,14 @@ namespace LikeAList
         /// </summary>
         public T[] arr;
 
+        public int Count
+        {
+            get
+            {
+                return arr.Length;
+            }
+        }
+
         /// <summary>
         /// Здесь происходит обращение к перечислителю массива arr. 
         /// </summary>
@@ -127,11 +135,6 @@ namespace LikeAList
                 }
                 Console.WriteLine();
             }
-        }
-
-        public void Count()
-        {
-            Console.WriteLine(arr.Length);
         }
     }
 }
