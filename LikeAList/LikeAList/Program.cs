@@ -11,22 +11,20 @@ namespace LikeAList
         {
             CustomList<int> list = new CustomList<int>();
             //Добавление в коллекцию элементов
-            list.Add(1);
-            list.Add(2, 3);
-            list.Add(4, 5, 6);
+            list.Add(4);
+            list.Add(5, 4, 3, 5);
 
             //Удаление из коллекции первого элемента
             list.RemoveAt(0);
 
-            int length = list.Count;
-
-            Console.WriteLine(length);
+            Console.WriteLine($"Количество элементов в коллекции {list.Count}");
 
             //Вывод всех элементов в коллекции с помощью цикла foreach
             foreach (int el in list)
             {
                 Console.WriteLine(el);
             }
+
             Console.ReadLine();
         }
     }
